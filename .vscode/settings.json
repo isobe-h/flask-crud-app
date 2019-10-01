@@ -1,0 +1,31 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    /* 文字数制限解除 */
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
+    "python.formatting.autopep8Args": [
+        //セミコロンでの改行するのを見逃す
+        "--ignore",
+        "E70",
+        // 1行100文字
+        "--max-line-length",
+        "100",
+    ],
+    "python.linting.lintOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "python.jediEnabled": false,
+    // "azureFunctions.showProjectWarning": false,
+    // "javascript.suggest.completeFunctionCalls": true,
+    "python.terminal.activateEnvironment": false,
+    /* 仮想環境を使用する場合 */
+    "python.venvFolders": [
+      "venv"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    //"python.pythonPath": "python",
+}
