@@ -17,6 +17,8 @@ def login():
             return redirect(url_for("show_entries"))
     return render_template("login.html")
 
+
+
 @app.route("/logout")
 def logout():
     session.pop("logged_in", None)

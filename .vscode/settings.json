@@ -20,7 +20,7 @@
     "python.jediEnabled": false,
     // "azureFunctions.showProjectWarning": false,
     // "javascript.suggest.completeFunctionCalls": true,
-    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvironment": true,
     /* 仮想環境を使用する場合 */
     "python.venvFolders": [
       "venv"
