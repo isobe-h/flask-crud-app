@@ -23,7 +23,7 @@ numpy==1.17.0
 packaging==19.1
 pandas==0.25.1
 Pillow>=6.2.2
-pipenv==2018.11.26
+pipenv==2022.1.8
 pycodestyle==2.5.0
 pyflakes==2.1.1
 pylint==2.3.1
